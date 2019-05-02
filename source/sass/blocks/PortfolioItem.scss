@@ -1,0 +1,32 @@
+.PortfolioItem {
+  margin-bottom: 50px;
+
+  &-Pic {
+    width: 290px;
+    height: 300px;
+    display: block;
+  }
+
+  &-Link {
+  text-decoration: none;
+  }
+
+  &-Description {
+    padding: 30px 0;
+    background: #fff;
+  }
+
+  &-Title {
+    margin: 0;
+    font: 700 18px/1.2 "Montserrat", sans-serif;
+    letter-spacing: -0.45px;
+    color: #222222;
+  }
+
+  &-Text {
+    margin: 0;
+    padding-top: 5px;
+    font: 14px/1.2 "Droid Serif", sans-serif;
+    color: #767676;
+  }
+}

@@ -1,0 +1,47 @@
+.TimelineItem {
+  width: 33%;
+
+  &_side_left {
+    text-align: right;
+  }
+
+  &_side_right {
+    text-align: left;
+  }
+
+  &-Title {
+    padding-bottom: 17px;
+    font: 700 18px/1.2 "Montserrat", sans-serif;
+    letter-spacing: -0.45px;
+    color: #222222;
+
+    &_letter_capital {
+      text-transform: uppercase;
+    }
+  }
+
+  &-Description {
+    font: 14px/1.5 "RobotoSlab", sans-serif;
+    letter-spacing: -0.35px;
+    color: #777777;
+  }
+
+  &-Pic {
+    border-radius: 50%;
+  }
+
+  &_align_center {
+    width: auto;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font: 700 18px "Montserrat", sans-serif;
+    text-transform: uppercase;
+    letter-spacing: -0.45px;
+    background: #f2d048;
+    color: #fff;
+    border: 8px solid #f1f1f1;
+    border-radius: 50%;
+  }
+}

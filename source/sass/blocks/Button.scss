@@ -1,0 +1,14 @@
+.Button {
+  padding: 25px 50px;
+  font: 700 18px/1.2 "Montserrat", sans-serif;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #fff;
+  background: #fed136;
+  border-radius: 3px;
+
+  &:hover {
+    color: #fed136;
+    background: #fff;
+  }
+}

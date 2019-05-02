@@ -1,0 +1,16 @@
+.ServicesItem {
+
+  &-Title {
+    padding-top: 25px;
+    padding-bottom: 20px;
+    font: 700 18px "Montserrat", sans-serif;
+    letter-spacing: -0.45px;
+    color: #222222;
+  }
+
+  &-Description {
+    font: 14px/1.5 "RobotoSlab", sans-serif;
+    letter-spacing: -0.35px;
+    color: #777777;
+  }
+}

@@ -1,0 +1,96 @@
+.Social {
+
+  &-Link {
+    width: 41px;
+    height: 41px;
+  	border: 3px solid black;
+  	border-radius: 50%;
+    margin-right: 10px;
+  }
+
+  &-LinkTwitter_bg_light {
+    background: url(/img/Twitter.png) no-repeat 12px;
+
+    &:hover {
+      background: url(/img/Twitter-hover.png) no-repeat 12px;
+      background-color: #00aced;
+      border: 3px solid #00aced;
+    }
+  }
+
+    &-LinkTwitter_bg_dark {
+      background: url(/img/Twitter-black.png) no-repeat 13px;
+      background-color: #222222;
+      border: 3px solid #222222;
+
+      &:hover {
+        background-color: #00aced;
+        border: 3px solid #00aced;
+      }
+    }
+
+  &-LinkFacebook_bg_light {
+    background: url(/img/Facebook.png) no-repeat 15px;
+
+    &:hover {
+      background: url(/img/Facebook-hover.png) no-repeat 15px;
+      background-color: #3b5998;
+      border: 3px solid #3b5998;
+    }
+  }
+
+  &-LinkFacebook_bg_dark {
+    background: url(/img/Facebook-black.png) no-repeat 15px;
+    background-color: #222222;
+    border: 3px solid #222222;
+
+    &:hover {
+      background-color: #3b5998;
+      border: 3px solid #3b5998;
+    }
+  }
+
+  &-LinkPinterest_bg_light {
+    background: url(/img/Pinterest.png) no-repeat 14px;
+
+    &:hover {
+      background: url(/img/Pinterest-hover.png) no-repeat 14px;
+      background-color: #cb2028;
+      border: 3px solid #cb2028;
+    }
+  }
+
+  &-LinkPinterest_bg_dark {
+    background: url(/img/Pinterest-black.png) no-repeat 13px;
+    background-color: #222222;
+    border: 3px solid #222222;
+
+    &:hover {
+      background: url(/img/Pinterest-hover.png) no-repeat 13px;
+      background-color: #cb2028;
+      border: 3px solid #cb2028;
+    }
+  }
+
+  &-LinkGoogleplus_bg_light {
+    background: url(/img/Googleplus.png) no-repeat 13px;
+
+    &:hover {
+      background: url(/img/Googleplus-hover.png) no-repeat 13px;
+      background-color: #da2713;
+      border: 3px solid #da2713;
+    }
+  }
+
+  &-LinkGoogleplus_bg_dark {
+    background: url(/img/Googleplus-black.png) no-repeat 13px;
+    background-color: #222222;
+    border: 3px solid #222222;
+
+    &:hover {
+      background: url(/img/Googleplus-hover.png) no-repeat 13px;
+      background-color: #da2713;
+      border: 3px solid #da2713;
+    }
+  }
+}

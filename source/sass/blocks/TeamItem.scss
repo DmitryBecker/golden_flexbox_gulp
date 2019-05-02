@@ -1,0 +1,15 @@
+.TeamItem {
+
+  &-Name {
+  padding-top: 25px;
+  font: 700 16px/1.5 "Montserrat", sans-serif;
+  letter-spacing: -0.4px;
+  color: #222222;
+  }
+
+  &-Role {
+  padding-bottom: 15px;
+  font: 14px/1.5 "Droid Serif", sans-serif;
+  color: #767676;
+  }
+}

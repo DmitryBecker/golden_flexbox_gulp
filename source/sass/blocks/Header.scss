@@ -1,0 +1,20 @@
+.Header {
+  min-height: 700px;
+  background: url(/img/bg-header.png) no-repeat center;
+
+    &-WelcomeText {
+    padding-top: 200px;
+    font: 40px/1.2 "Droid Serif", sans-serif;
+    letter-spacing: -1px;
+    color: #fff;
+  }
+
+  &-Title {
+    margin: 0;
+    padding: 30px 0 60px;
+    font: 700 75px/1.2 "Montserrat", sans-serif;
+    text-transform: uppercase;
+    letter-spacing: -1.9px;
+    color: #fff;
+  }
+}

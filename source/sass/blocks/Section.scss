@@ -1,0 +1,22 @@
+.Section {
+  padding: 120px 0;
+
+  &-Title {
+    margin: 0;
+    font: 700 40px/1.9 "Montserrat", sans-serif;
+    letter-spacing: -1px;
+    text-transform: uppercase;
+    color: #222222;
+  }
+
+  &-Title_color_light {
+    color: #fff;
+  }
+
+  &-SubTitle {
+    padding-top: 20px;
+    padding-bottom: 80px;
+    font: 16px/1.2 "Droid Serif", sans-serif;
+    color: #767676;
+  }
+}
